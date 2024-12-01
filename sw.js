@@ -53,10 +53,6 @@ self.__precacheManifest = [
     "url": "polyfill-bf58a1258cf29264f6d2.js"
   },
   {
-    "url": "manifest.json",
-    "revision": "d9d975cebe2ec20b6c652e1e4c12ccf0"
-  },
-  {
     "url": "manifest.webmanifest",
     "revision": "1982a1f2b8b7c987ceaed1e7c9777b65"
   }
