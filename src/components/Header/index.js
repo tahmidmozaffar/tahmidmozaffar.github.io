@@ -9,8 +9,8 @@ import P from './P';
 import Link from './Link';
 import Wrapper from './Wrapper';
 
-function Header({ config }) {
-  const { author, description, social } = config;
+function Header({config}) {
+  const {author, description, social} = config;
 
   return (
     <Container>
@@ -29,7 +29,7 @@ function Header({ config }) {
           />
         }
       </Wrapper>
-    </Container> 
+    </Container>
   );
 }
 

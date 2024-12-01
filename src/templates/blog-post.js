@@ -20,7 +20,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const author = get(this.props, 'data.site.siteMetadata.author');
-    const { previous, next } = this.props.pageContext;
+    const {previous, next} = this.props.pageContext;
 
     let url = '';
     if (typeof window !== `undefined`) {
@@ -32,7 +32,7 @@ class BlogPostTemplate extends React.Component {
         <Container>
           <Helmet
             title={`${post.frontmatter.title} | ${author}`}
-            htmlAttributes={{ lang: 'en' }}
+            htmlAttributes={{lang: 'en'}}
           >
             <meta
               name="description"
@@ -48,13 +48,13 @@ class BlogPostTemplate extends React.Component {
               )}
               <h1>{post.frontmatter.title}</h1>
               <p>{post.frontmatter.date}</p>
-              <span />
+              <span/>
             </ArticleHeader>
             <Article>
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              <div dangerouslySetInnerHTML={{__html: post.html}}/>
             </Article>
             {userConfig.showShareButtons && (
-              <Share url={url} title={post.frontmatter.title} />
+              <Share url={url} title={post.frontmatter.title}/>
             )}
           </Card>
 
