@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-stack Web Developer]]></description><link>https://ryanfitzgerald.github.io/devblog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Dec 2024 09:43:19 GMT</lastBuildDate><item><title><![CDATA[Welcome to the Blog!]]></title><description><![CDATA[Welcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.]]></description><link>https://ryanfitzgerald.github.io/devblog/welcome-to-the-blog/</link><guid isPermaLink="false">https://ryanfitzgerald.github.io/devblog/welcome-to-the-blog/</guid><pubDate>Sun, 01 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev Blog]]></title><description><![CDATA[Full-stack Web Developer]]></description><link>https://ryanfitzgerald.github.io/devblog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Dec 2024 09:51:18 GMT</lastBuildDate><item><title><![CDATA[Welcome to the Blog!]]></title><description><![CDATA[Welcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.]]></description><link>https://ryanfitzgerald.github.io/devblog/welcome-to-the-blog/</link><guid isPermaLink="false">https://ryanfitzgerald.github.io/devblog/welcome-to-the-blog/</guid><pubDate>Sun, 01 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to the new blog, I hope you enjoy your stay! This is an example of how you can control what excerpt shows up.&lt;/p&gt;
 &lt;!-- end --&gt;
 &lt;h2&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h2&gt;
 &lt;p&gt;Sed urna justo, scelerisque consectetur pharetra vitae, facilisis vel diam. Maecenas auctor enim a volutpat mattis. Morbi sit amet turpis a purus ornare pellentesque sit amet et ipsum. Suspendisse imperdiet mi at felis aliquet, nec consectetur arcu dignissim. Sed vitae diam maximus, maximus diam ac, scelerisque mi.&lt;/p&gt;
@@ -43,11 +43,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Space&quot;
         title=&quot;&quot;
-        src=&quot;/devblog/static/a36bdd86f732bc910b6582d29adae291/29d31/space.jpg&quot;
-        srcset=&quot;/devblog/static/a36bdd86f732bc910b6582d29adae291/e52aa/space.jpg 175w,
-/devblog/static/a36bdd86f732bc910b6582d29adae291/70ebb/space.jpg 350w,
-/devblog/static/a36bdd86f732bc910b6582d29adae291/29d31/space.jpg 700w,
-/devblog/static/a36bdd86f732bc910b6582d29adae291/4b190/space.jpg 800w&quot;
+        src=&quot;/static/a36bdd86f732bc910b6582d29adae291/29d31/space.jpg&quot;
+        srcset=&quot;/static/a36bdd86f732bc910b6582d29adae291/e52aa/space.jpg 175w,
+/static/a36bdd86f732bc910b6582d29adae291/70ebb/space.jpg 350w,
+/static/a36bdd86f732bc910b6582d29adae291/29d31/space.jpg 700w,
+/static/a36bdd86f732bc910b6582d29adae291/4b190/space.jpg 800w&quot;
         sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
       /&gt;
     &lt;/span&gt;
@@ -88,11 +88,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Train Tracks&quot;
         title=&quot;&quot;
-        src=&quot;/devblog/static/a6bff11fd84ef0a7e78d1abedda1165c/29d31/traintrack.jpg&quot;
-        srcset=&quot;/devblog/static/a6bff11fd84ef0a7e78d1abedda1165c/e52aa/traintrack.jpg 175w,
-/devblog/static/a6bff11fd84ef0a7e78d1abedda1165c/70ebb/traintrack.jpg 350w,
-/devblog/static/a6bff11fd84ef0a7e78d1abedda1165c/29d31/traintrack.jpg 700w,
-/devblog/static/a6bff11fd84ef0a7e78d1abedda1165c/4b190/traintrack.jpg 800w&quot;
+        src=&quot;/static/a6bff11fd84ef0a7e78d1abedda1165c/29d31/traintrack.jpg&quot;
+        srcset=&quot;/static/a6bff11fd84ef0a7e78d1abedda1165c/e52aa/traintrack.jpg 175w,
+/static/a6bff11fd84ef0a7e78d1abedda1165c/70ebb/traintrack.jpg 350w,
+/static/a6bff11fd84ef0a7e78d1abedda1165c/29d31/traintrack.jpg 700w,
+/static/a6bff11fd84ef0a7e78d1abedda1165c/4b190/traintrack.jpg 800w&quot;
         sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
       /&gt;
     &lt;/span&gt;
