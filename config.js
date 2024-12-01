@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Diary of Tahmid', // Required
-  author: 'Md Tahmid Mozaffar', // Required
+  title: 'Dev Diary', // Required
+  author: 'Tahmid Mozaffar', // Required
   description: 'Software Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,

@@ -8,12 +8,13 @@ import Header from '../components/Header';
 import GlobalStyle from '../global-styles';
 
 class Template extends React.Component {
+
   render() {
-    const {children} = this.props;
+    const {children, showHeader} = this.props;
     return (
       <div>
         <GlobalStyle/>
-        <Header config={userConfig}/>
+        {showHeader && <Header config={userConfig}/>}
         {children}
       </div>
     );

@@ -9,18 +9,16 @@ import Layout from './layout';
 
 import Article from '../components/Article';
 import ArticleHeader from '../components/ArticleHeader';
-import Button from '../components/Button';
 import Card from '../components/Card';
 import Container from '../components/Container';
 import FeaturedImage from '../components/FeaturedImage';
-import PageNav from '../components/PageNav';
 import Share from '../components/Share';
+import Link from "../components/Header/Link";
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const author = get(this.props, 'data.site.siteMetadata.author');
-    const {previous, next} = this.props.pageContext;
 
     let url = '';
     if (typeof window !== `undefined`) {
@@ -39,6 +37,7 @@ class BlogPostTemplate extends React.Component {
               content={`${userConfig.title} | ${userConfig.description}`}
             />
           </Helmet>
+          <p style={{fontSize: "20px"}}><Link to="/">{"← Home 🏠"}</Link></p>e
           <Card>
             <ArticleHeader>
               {post.frontmatter.featuredImage && (
@@ -57,20 +56,6 @@ class BlogPostTemplate extends React.Component {
               <Share url={url} title={post.frontmatter.title}/>
             )}
           </Card>
-
-          <PageNav>
-            {previous && (
-              <Button to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Button>
-            )}
-
-            {next && (
-              <Button to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Button>
-            )}
-          </PageNav>
         </Container>
       </Layout>
     );

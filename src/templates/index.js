@@ -1,21 +1,15 @@
 import Helmet from 'react-helmet';
 import React from 'react';
-
 import userConfig from '../../config';
-
 import Layout from './layout';
-
 import Card from '../components/Card';
 import Container from '../components/Container';
-import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
 
 const IndexPage = ({pageContext}) => {
-  const {group, index, pageCount} = pageContext;
-  const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
-  const nextUrl = (index + 1).toString();
+  const {group} = pageContext;
   return (
-    <Layout>
+    <Layout showHeader={true}>
       <Container>
         <Helmet
           title={`${userConfig.title} | ${userConfig.author}`}
@@ -37,12 +31,6 @@ const IndexPage = ({pageContext}) => {
             />
           </Card>
         ))}
-        <Pagination
-          isFirst={index === 1}
-          isLast={index === pageCount}
-          nextUrl={nextUrl}
-          previousUrl={previousUrl}
-        />
       </Container>
     </Layout>
   );

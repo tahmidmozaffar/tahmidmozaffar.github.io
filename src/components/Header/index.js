@@ -10,7 +10,7 @@ import Link from './Link';
 import Wrapper from './Wrapper';
 
 function Header({config}) {
-  const {author, description, social} = config;
+  const {author, description, social, title} = config;
 
   return (
     <Container>
@@ -18,8 +18,8 @@ function Header({config}) {
         {userConfig.showHeaderImage && (
           <HeaderImage/>
         )}
-        <H1><Link to="/">{author}</Link></H1>
-        <P>{description}</P>
+        <H1><Link to="/">{title}</Link></H1>
+        <P>{author}</P>
         {social &&
           <Social
             website={social.website}
