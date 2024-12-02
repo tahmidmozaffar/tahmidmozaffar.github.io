@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const SocialLink = styled.a`
     border: 1px solid #bfc8d2;

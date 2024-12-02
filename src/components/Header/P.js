@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import BasicP from '../P';
+import BasicP from "../P";
 
 const P = styled(BasicP)`
     margin: 0;

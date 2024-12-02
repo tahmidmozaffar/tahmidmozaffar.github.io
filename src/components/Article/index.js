@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import userConfig from '../../../config';
+import styled from "styled-components";
+import userConfig from "../../../config";
 
 const Article = styled.article`
     color: #65738c;
